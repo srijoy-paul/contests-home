@@ -1,0 +1,37 @@
+#carouselExampleSlidesOnly {
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+}
+
+#carouselExampleSlidesOnly .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+#carouselExampleSlidesOnly .carousel-inner .carousel-item {
+  /* border: 7px solid green; */
+  width: 100%;
+  height: 400px;
+}
+
+#carouselExampleSlidesOnly .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-container {
+  /* border: 7px solid green; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 50px 30px;
+  justify-content: center;
+}
+
+.card-container .card .card-img-top {
+  /* border: 2px solid blue; */
+  padding: 0 5px;
+  border-bottom: 1px solid rgb(152, 152, 152);
+}
