@@ -19,7 +19,7 @@ fetch(url)
       const EndTime = new Date(EndTimemsec);
 
       card_iHTML += `<div class="card" style="width: 20rem;">
-      <img src="https://breakinghierarchy.com/wp-content/uploads/2020/08/hackerrank-logo.png" class="card-img-top" alt="...">
+      <img src="https://techyeverything.com/wp-content/uploads/2020/11/Coding-Contest.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">${data[contests].name}</h5>
         <p class="card-text">
